@@ -26,7 +26,8 @@ This vulnerability exists in the WAN port configuration functionality of the fir
 
 The user input `v12` (pppoeUser) retrieved at line 97 is not filtered in any way and reaches the following three dangerous copy functions directly.
 
-![image-20261027151535471](C:\Users\34028\AppData\Roaming\Typora\typora-user-images\image-20261027151535471.png)
+<img width="844" height="574" alt="ede36d1f7b82a0e316ac002f53029ce" src="https://github.com/user-attachments/assets/07332eae-56ea-48ce-90cc-f2c196f22b62" />
+
 
 ![image-20261027151646540](C:\Users\34028\AppData\Roaming\Typora\typora-user-images\image-20261027151646540.png)
 
